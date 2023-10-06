@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "picture": "https://tiempogamer.com/wp-content/uploads/2023/10/The-First-Descendant.jpg",
+        "title": "Así es The First Descendant, el nuevo looter-shooter.",
+        "description": "The First Descendant por fin está disponible para probarse a través de su beta abierta en nuestras consolas Xbox Series.",
+        "price": 299.99
+    },
+    {
+        "id": 2,
+        "picture": "https://tiempogamer.com/wp-content/uploads/2023/10/2x1_NSwitch_TaitoMilestones2_image1600w.jpg",
+        "title": "Taito Milestones 2. Análisis. taito analisis",
+        "description": "El año pasado tuvimos el honor de reseñar gracias a la gente de Inin Games Taito Milestones 1, hoy la misma compañía lanza la parte 2 que a pesar de sus altibajos logra unas buenas horas de nostalgia y diversión.",
+        "price": 49.99
+    },
+    {
+        "id": 3,
+        "picture": "https://tiempogamer.com/wp-content/uploads/2023/09/remnant-2-art-HD-scaled-1-1536x864.jpg",
+        "title": "Remnant 2. Un souls a su manera y la altura. Análisis.",
+        "description": "La segunda parte de Remnant 2 está entre nosotros y gracias a la agencia FortySeven  y a Gunfire Games en Tiempo Gamer pudimos jugarlo para contarte que nos pareció.",
+        "price": 149.99
+    },
+    {
+        "id": 4,
+        "picture": "https://tiempogamer.com/wp-content/uploads/2023/09/Cyberpunk-07.jpg",
+        "title": "CD Projekt recomienda empezar una nueva partida",
+        "description": "Cyberpunk 2077 recibe en unos días (26 de septiembre) la primera y única expansión de historia, Phantom Liberty, pero coincidiendo con esa fecha llega la actualización gratuita 2.0 que aporta multitud de novedades.",
+        "price": 19.99
+    },
+    {
+        "id": 5,
+        "picture": "https://tiempogamer.com/wp-content/uploads/2023/09/PAYDAY-3.jpg",
+        "title": "Nuevos detalles sobre la progresión de PayDay.","description": "Desde Starbreeze Studios siguen avanzando en el desarrollo de su próximo título, PayDay 3. El mítico shooter cooperativo de robo de bancos tuvo hace unas semanas una beta que permitió entrar en contacto con la jugabilidad. Ahora, toca avanzar y,",
+        "price": 19.99
+    },
+    {
+        "id": 6,
+        "picture": "https://tiempogamer.com/wp-content/uploads/2023/09/TEKKEN-8.jpg",
+        "title": "¡Prepárate para la próxima batalla! TEKKEN 8 llega este.",
+        "description": "El publisher y developer líder de videojuegos Bandai Namco Entertainment America Inc. anunció hoy que TEKKEN™ 8, la próxima entrada en la legendaria franquicia de lucha, se lanzará el 26 de enero de 2024",
+        "price": 149.99
+    },
+    {
+        "id": 7,
+        "picture": "https://tiempogamer.com/wp-content/uploads/2023/09/ARMORED-CORE-VI-FIRES-OF-RUBICON-2023.webp",
+        "title": "Armored Core VI Fires of Rubicon. Análisis.",
+        "description": "La primera gran obra del maestro Miyazaki y From Software al ataque nuevamente.El nuevo juego de la saga Armored Core se hizo esperar demasiado esto posiblemente  a causa de sus hermanos medievales que tantas alegrías también nos brindaron si hablo de la saga de Demon Souls,",
+        "price": 49.99
+    },
+    {
+        "id": 8,
+        "picture": "https://tiempogamer.com/wp-content/uploads/2023/09/the-crew-motorfest.webp",
+        "title": "Ya está The Crew Motorfest con una prueba gratuita",
+        "description": "Mientras unos esperan con ansias el próximo Forza Motorsport, otros prefieren una propuesta más desenfadada y directa que pueda suplir al veterano Forza Horizon 5. No podemos negar que cuando sale un nuevo juego de conducción en mundo abierto",
+        "price": 19.99
+    }
+]
