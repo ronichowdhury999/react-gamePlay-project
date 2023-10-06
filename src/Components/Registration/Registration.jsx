@@ -27,11 +27,11 @@ const Registration = () => {
                                 </label>
                             </div>
                             <div className="form-control mt-6">
-                                <button className="btn btn-primary">Login</button>
+                                <button className="btn bg-red-500 text-white hover:bg-red-800">Login</button>
                             </div>
-                        <div className="text-center mt-4">
-                        <p>You have an accout <Link className="pl-8 font-semibold" to='/login'>Login</Link></p>
-                        </div>
+                            <div className="text-center mt-4">
+                                <p>You have an accout <Link className="pl-8 font-semibold" to='/login'>Login</Link></p>
+                            </div>
                         </form>
                     </div>
                 </div>

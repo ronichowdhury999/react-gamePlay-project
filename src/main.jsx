@@ -10,6 +10,7 @@ import Home from "./Components/Home/Home";
 import Error from "./Components/ErrorPages/Error";
 import Login from "./Components/Login/Login";
 import Registration from "./Components/Registration/Registration";
+import AuthProvider from "./Components/Firebase/AuthProvider";
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
+    <AuthProvider>
     <RouterProvider router={router} />
+    </AuthProvider>
   </React.StrictMode>
 );
