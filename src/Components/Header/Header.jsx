@@ -20,9 +20,9 @@ const Header = () => {
                             isPending ? 'pending' : isActive ? 'text-red-600 underline' : ''} to={'/Contact'}>Contact</NavLink></li>
                         </ul>
                     </div>
-                    <div className="navbar-end">
-                        <a className="py-2 px-4 rounded-lg bg-red-600 border-none text-white">Login</a>
-                    </div>
+                    <Link to={'/login'} className="navbar-end">
+                        <button className="py-2 px-4 rounded-lg bg-red-600 border-none text-white">Login</button>
+                    </Link>
                 </div>
             </nav>
         </div>
