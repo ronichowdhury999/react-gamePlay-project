@@ -6,7 +6,7 @@ const Cards = () => {
     const cards = useLoaderData()
     console.log(cards);
     return (
-        <div className="lg:pt-24 pt-14 pb-10">
+        <div className="lg:pt-24 pt-14">
             <div className="text-white lg:text-3xl text-xl  font-bold font-serif text-center">
                 <h3>The best Gamming Event of Games and Car ,Fighter, Fire , Guns,Gamming... </h3>
             </div>

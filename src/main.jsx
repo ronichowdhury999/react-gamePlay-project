@@ -13,6 +13,7 @@ import Registration from "./Components/Registration/Registration";
 import AuthProvider from "./Components/Firebase/AuthProvider";
 import PrivaiteRoute from "./Components/PrivateRoute/PrivaiteRoute";
 import GameCardDetails from "./Components/GameCardDetails/GameCardDetails";
+import About from "./Components/Abouts/About";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home></Home>,
         loader: () => fetch('../cards.json')
+      },
+      {
+         path:'/about',
+         element: <About></About>
       },
       {
         path: '/gameCardShow/:id',

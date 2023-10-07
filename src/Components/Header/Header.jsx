@@ -33,28 +33,30 @@ const Header = () => {
             <div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 text-lg font-semibold font-serif">
-                        <li><NavLink className={({ isActive, isPending }) =>
-                            isPending ? 'pending' : isActive ? 'text-red-600 underline' : ''} to={'/'}>Home</NavLink></li>
+                        <li className="hover:bg-red-600 hover:rounded-lg"><NavLink className={({ isActive, isPending }) =>
+                            isPending ? 'pending' : isActive ? 'text-red-600   underline' : ''} to={'/'}>Home</NavLink></li>
 
-                        <li> <NavLink className={({ isActive, isPending }) =>
+                        <li className="hover:bg-red-600 hover:rounded-lg"> <NavLink className={({ isActive, isPending }) =>
                             isPending ? 'pending' : isActive ? 'text-red-600 underline' : ''} to={'/about'}>About us</NavLink> </li>
 
-                        <li><NavLink className={({ isActive, isPending }) =>
+                        <li className="hover:bg-red-600 hover:rounded-lg"><NavLink className={({ isActive, isPending }) =>
                             isPending ? 'pending' : isActive ? 'text-red-600 underline' : ''} to={'/Contact'}>Contact</NavLink></li>
                     </ul>
                 </div>
                 <div>
                     {
                         user ?
-                            <div className="flex gap-2 lg:pl-28 md:pl-24 items-center">
+                            <div className="flex gap-2 lg:pl-16 md:pl-24 items-center">
                                 <p>{user.email}</p>
                                 <button onClick={handalSignOut} className="py-2 px-4 rounded-lg bg-red-600 text-xs border-none text-white">Sign Out</button>
                             </div>
                             :
-                            <Link to={'/login'} className="navbar-end 
-                             pl-32 md:pl-48 ">
+                            <div className="pl-32 lg:pl-64 md:pl-64 ">
+                                <Link to={'/login'} className="navbar-end 
+                             ">
                                 <button className="py-2 px-4 rounded-lg bg-red-600 border-none text-white">Login</button>
                             </Link>
+                            </div>
                     }
                 </div>
             </div>
