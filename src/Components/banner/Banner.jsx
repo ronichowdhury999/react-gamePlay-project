@@ -2,6 +2,7 @@
 const Banner = () => {
     return (
         <div>
+            
             <div className="hero min-h-screen" style={{ backgroundImage: 'url(https://tiempogamer.com/wp-content/uploads/2023/09/the-crew-motorfest.webp)' }}>
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content  text-center text-neutral-content">

@@ -7,6 +7,7 @@ const Card = ({ card }) => {
     const sliceText =description.slice(0,85)
     return (
         <div>
+            
             <div className="shadow-lg bg-gray-200">
                 <figure><img className="w-full" src={picture} alt="" /></figure>
 
@@ -20,8 +21,8 @@ const Card = ({ card }) => {
                     <p className="font-serif text-gray-600 font-semibold">Price:{price}</p>
                     </div>
                 <div>
-                <Link to={`/details/${id}`}>
-                    <button className="btn bg-red-500 text-white">Details</button>
+                <Link to={`/gameCardShow/${id}`}>
+                    <button className="px-4 py-2 rounded-lg bg-red-500 text-white">Details</button>
                 </Link>
                 </div>
                 </div>
