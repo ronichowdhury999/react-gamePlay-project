@@ -1,16 +1,20 @@
 import { useContext, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../Firebase/AuthProvider";
 
 
 const Registration = () => {
+    const location = useLocation();
+    console.log(location.state);
+    const navigate = useNavigate();
+
+      
 
     const {createUser } = useContext(AuthContext);
     const [error, setError] = useState('')
 
     const handalRegistration = (e) => {
         e.preventDefault();
-        const text = e.target.name.value;
         const email = e.target.email.value;
         const password = e.target.password.value;
 
@@ -25,8 +29,10 @@ const Registration = () => {
             setError('At least one special letter');
             return
           }
-        createUser(email,password,text).then(result => {
+        createUser(email,password).then(result => {
             console.log(result.user);
+            navigate(location?.state ? location.state : '/')
+            
         }).catch(err => {
             setError(err.message)
         })

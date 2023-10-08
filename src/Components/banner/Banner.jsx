@@ -1,8 +1,8 @@
 
 const Banner = () => {
     return (
-        <div>
-            
+        
+            <div data-aos="fade-down">
             <div className="hero min-h-screen" style={{ backgroundImage: 'url(https://radiustheme.com/demo/wordpress/themes/gamxo/wp-content/uploads/2022/05/13-700x600.jpg)' }}>
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content  text-center text-neutral-content">

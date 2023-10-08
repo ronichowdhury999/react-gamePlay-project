@@ -2,6 +2,10 @@
 
 const Contact = () => {
     return (
+        <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+
         <div className="text-center mt-10 text-white font-serif p-4 ">
             <h2 className="lg:text-4xl text-xl text-bold font-bold pb-6">Top 5 Scholarships for Gamers (2023) and How to Apply</h2>
             <div className="pt-6">
@@ -21,6 +25,7 @@ const Contact = () => {
 
                 </p>
             </div>
+        </div>
         </div>
     );
 };

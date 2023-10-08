@@ -5,6 +5,7 @@ import { AuthContext } from "../Firebase/AuthProvider";
 const Login = () => {
     const { signIn, googleSignIn } = useContext(AuthContext)
     const location = useLocation();
+    console.log(location);
     const navigate = useNavigate();
 
 
@@ -25,6 +26,7 @@ const Login = () => {
     const handalGoogleSignIn = () => {
         googleSignIn().then(result => {
             console.log(result.user)
+            navigate(location?.state ? location.state : '/')
         })
             .catch(error => {
                 console.error(error)

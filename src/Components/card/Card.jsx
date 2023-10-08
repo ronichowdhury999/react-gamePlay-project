@@ -3,11 +3,13 @@ import PropTypes from 'prop-types';
 
 
 const Card = ({ card }) => {
-    const { id, picture, title, description,price } = card || [];
-    const sliceText =description.slice(0,85)
+    const { id, picture, title, description, price } = card || [];
+    const sliceText = description.slice(0, 85)
     return (
-        <div>
+            <div data-aos="zoom-in"
+                data-aos-anchor-placement="bottom-bottom">
             
+
             <div className="shadow-lg bg-gray-200">
                 <figure><img className="w-full" src={picture} alt="" /></figure>
 
@@ -18,13 +20,13 @@ const Card = ({ card }) => {
 
                 <div className="flex justify-between items-center p-4">
                     <div>
-                    <p className="font-serif text-gray-600 font-semibold">Price:{price}</p>
+                        <p className="font-serif text-gray-600 font-semibold">Price:{price}</p>
                     </div>
-                <div>
-                <Link to={`/gameCardShow/${id}`}>
-                    <button className="px-4 py-2 rounded-lg bg-red-500 text-white">Details</button>
-                </Link>
-                </div>
+                    <div>
+                        <Link to={`/gameCardShow/${id}`}>
+                            <button className="px-4 py-2 rounded-lg bg-red-500 text-white">Details</button>
+                        </Link>
+                    </div>
                 </div>
             </div>
         </div>

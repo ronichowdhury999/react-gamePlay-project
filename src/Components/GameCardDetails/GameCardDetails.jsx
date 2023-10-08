@@ -4,8 +4,7 @@ import GameCardDetailsShow from "../GameCardDetailsShow/GameCardDetailsShow";
 
 
 const GameCardDetails = () => {
-    const [showDetailsCard,setShowDetailsCard] = useState() 
-    console.log(showDetailsCard);
+    const [showDetailsCard,setShowDetailsCard] = useState();
     const {id} =useParams()
     const gameCards = useLoaderData();
     useEffect(()=> {
