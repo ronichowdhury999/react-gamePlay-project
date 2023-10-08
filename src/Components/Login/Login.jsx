@@ -65,7 +65,11 @@ const Login = () => {
                             <div className="text-center mt-4">
                                 <p>Do not have an accout <Link className="lg:pl-8 pl-2 font-semibold" to='/registration'>Registration</Link></p>
                             </div>
-                            <div className="text-center"><button onClick={handalGoogleSignIn} className="btn hover:bg-red-800  bg-red-600 text-white border-none">Google</button></div>
+                            <div className="text-center pt-4">
+                                <button onClick={handalGoogleSignIn} className="btn hover:bg-gray-400  bg-gray-200  border-none">
+                                <img className="w-[20px]" 
+                                src="https://img.icons8.com/?size=48&id=17949&format=png" alt="" /> Google
+                                </button></div>
                         </form>
                     </div>
                 </div>

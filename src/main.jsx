@@ -14,6 +14,7 @@ import AuthProvider from "./Components/Firebase/AuthProvider";
 import PrivaiteRoute from "./Components/PrivateRoute/PrivaiteRoute";
 import GameCardDetails from "./Components/GameCardDetails/GameCardDetails";
 import About from "./Components/Abouts/About";
+import Contact from "./Components/Contacts/Contact";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
          path:'/about',
          element: <About></About>
+      },
+      {
+        path:'/contact',
+        element: <Contact></Contact>
       },
       {
         path: '/gameCardShow/:id',
