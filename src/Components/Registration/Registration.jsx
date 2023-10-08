@@ -10,6 +10,7 @@ const Registration = () => {
 
     const handalRegistration = (e) => {
         e.preventDefault();
+        const text = e.target.name.value;
         const email = e.target.email.value;
         const password = e.target.password.value;
 
@@ -24,9 +25,7 @@ const Registration = () => {
             setError('At least one special letter');
             return
           }
-
-        console.log(email, password);
-        createUser(email,password).then(result => {
+        createUser(email,password,text).then(result => {
             console.log(result.user);
         }).catch(err => {
             setError(err.message)
@@ -43,6 +42,19 @@ const Registration = () => {
                     <div className="card flex-shrink-0 w-full shadow-2xl bg-base-100">
                         <p className="text-center text-sm pt-4">{error}</p>
                         <form className="card-body" onSubmit={handalRegistration}>
+                            <div className="form-control">
+                                <label className="label">
+                                    <span className="label-text">Name</span>
+                                </label>
+                                <input
+                                    type="text"
+                                    placeholder="Your name"
+                                    className="input input-bordered"
+                                    required
+                                    name="name"
+                                    // value={email}
+                                />
+                            </div>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Email</span>

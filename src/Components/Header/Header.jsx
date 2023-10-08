@@ -46,7 +46,7 @@ const Header = () => {
                 <div>
                     {
                         user ?
-                            <div className="flex gap-2 lg:pl-16 md:pl-24 items-center">
+                            <div className="flex gap-2 lg:pl-28 md:pl-24 items-center">
                                 <p>{user.email}</p>
                                 <button onClick={handalSignOut} className="py-2 px-4 rounded-lg bg-red-600 text-xs border-none text-white">Sign Out</button>
                             </div>
