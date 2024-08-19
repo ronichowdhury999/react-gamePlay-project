@@ -9,7 +9,7 @@ const Banner = () => {
                         <div data-aos="fade-right"
                             data-aos-offset="300"
                             data-aos-easing="ease-in-sine">
-                            <h1 className="mb-5 text-red-500 text-5xl font-bold">Best Games</h1>
+                            <h1 className="mb-5 text-red-500 text-5xl font-bold">Best Ga<span className="text-white">m</span>es</h1>
                         </div>
                         <div data-aos="fade-left"
                             data-aos-anchor="#example-anchor"
