@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { AuthContext } from "../Firebase/AuthProvider";
+import { AuthContext } from "../../Firebase/AuthProvider";
 
 const Login = () => {
     const { signIn, googleSignIn } = useContext(AuthContext)

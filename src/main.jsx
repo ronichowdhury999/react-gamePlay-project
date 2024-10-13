@@ -5,16 +5,16 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import "./index.css";
-import Roots from "./Components/Roots/Roots";
-import Home from "./Components/Home/Home";
-import Error from "./Components/ErrorPages/Error";
-import Login from "./Components/Login/Login";
-import Registration from "./Components/Registration/Registration";
-import AuthProvider from "./Components/Firebase/AuthProvider";
-import PrivaiteRoute from "./Components/PrivateRoute/PrivaiteRoute";
 import GameCardDetails from "./Components/GameCardDetails/GameCardDetails";
-import About from "./Components/Abouts/About";
 import Contact from "./Components/Contacts/Contact";
+import Roots from "./Roots/Roots";
+import Home from "./Pages/Home/Home";
+import Error from "./Pages/ErrorPages/Error";
+import Login from "./Pages/Login/Login";
+import Registration from "./Pages/Registration/Registration";
+import PrivaiteRoute from "./PrivateRoute/PrivaiteRoute";
+import AuthProvider from "./Firebase/AuthProvider";
+import About from "./Pages/Abouts/About";
 
 const router = createBrowserRouter([
   {

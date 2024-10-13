@@ -1,7 +1,6 @@
 
 const About = () => {
     return (
-        
             <div data-aos="zoom-in">
             <div className=" bg-imgcc  mt-16 text-white ">
                 <div className="text-center">
@@ -12,7 +11,6 @@ const About = () => {
                         “I hate my current job, but could a career in games really support my family? Or have I missed the bus?”
                         “I sent my resume to 10 different game studios, but none have responded. Is this hopeless? What am I doing wrong?”
                         If so, you’ve come to the right place.
-
                         When you’re thinking about a career in games, there’s so much to learn. It can get overwhelming. You need to find a career that fits your personality, learn the job skills, write a convincing resume, build an epic online portfolio, ace the phone screen… and that’s all before you even get an interview. It’s enough to leave you buried under a mountain of fear, uncertainty, and doubt.
 
                         That’s where I can help. Think of Game Industry Career Guide as your magical cheat sheet for learning about the game industry, landing your first job, and starting a fulfilling (and profitable!) career making video games.
